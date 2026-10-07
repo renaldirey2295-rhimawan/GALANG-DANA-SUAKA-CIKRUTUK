@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Penggalangan bantuan kemanusiaan untuk saudara kita yang sedang mengungsi di Cikrutuk.">
+<meta name="description"
+content="Penggalangan bantuan kemanusiaan untuk saudara kita yang sedang mengungsi di Cikrutuk.">
 
 <title>Bantuan Kemanusiaan Cikrutuk</title>
 
@@ -45,9 +46,9 @@ body{
 }
 
 
-/* =========================
+/* ==================================================
    NAVBAR
-========================= */
+================================================== */
 
 nav{
   position:fixed;
@@ -89,9 +90,9 @@ nav a{
 }
 
 
-/* =========================
+/* ==================================================
    HERO
-========================= */
+================================================== */
 
 .hero{
   min-height:92vh;
@@ -104,11 +105,11 @@ nav a{
   background:
     linear-gradient(
       90deg,
-      rgba(13,20,27,.72),
-      rgba(13,20,27,.28)
+      rgba(13,20,27,.42),
+      rgba(13,20,27,.10)
     ),
     url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
-    center/cover;
+    center center / cover;
 
   color:white;
 }
@@ -149,13 +150,13 @@ h1{
 
   max-width:720px;
 
-  color:#f5f5f5;
+  color:#ffffff;
 }
 
 
-/* =========================
+/* ==================================================
    BUTTON
-========================= */
+================================================== */
 
 .btn{
   display:inline-block;
@@ -192,9 +193,9 @@ h1{
 }
 
 
-/* =========================
+/* ==================================================
    SECTION
-========================= */
+================================================== */
 
 section{
   padding:72px 6%;
@@ -220,9 +221,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    GRID
-========================= */
+================================================== */
 
 .grid{
   display:grid;
@@ -253,9 +254,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    STATS
-========================= */
+================================================== */
 
 .stats{
   display:grid;
@@ -285,9 +286,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    PROGRESS
-========================= */
+================================================== */
 
 .progress{
   height:16px;
@@ -317,9 +318,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    GALLERY
-========================= */
+================================================== */
 
 .gallery{
   display:grid;
@@ -348,9 +349,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    DONATION
-========================= */
+================================================== */
 
 .donate{
   background:var(--dark);
@@ -403,9 +404,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    NOTICE
-========================= */
+================================================== */
 
 .notice{
   padding:16px 18px;
@@ -422,9 +423,9 @@ section{
 }
 
 
-/* =========================
+/* ==================================================
    FOOTER
-========================= */
+================================================== */
 
 footer{
   background:#10161b;
@@ -439,9 +440,9 @@ footer{
 }
 
 
-/* =========================
+/* ==================================================
    MUSIC BUTTON
-========================= */
+================================================== */
 
 .music{
   position:fixed;
@@ -468,9 +469,9 @@ footer{
 }
 
 
-/* =========================
+/* ==================================================
    SMALL TEXT
-========================= */
+================================================== */
 
 .small{
   font-size:13px;
@@ -486,9 +487,9 @@ footer{
 }
 
 
-/* =========================
+/* ==================================================
    RESPONSIVE
-========================= */
+================================================== */
 
 @media(max-width:800px){
 
@@ -521,9 +522,9 @@ footer{
   }
 
 
-  /* =========================
+  /* ==================================================
      HERO MOBILE
-  ========================= */
+  ================================================== */
 
   .hero{
 
@@ -532,32 +533,30 @@ footer{
     padding:
       110px 6% 70px;
 
-    background-position:
-      58% center;
-
-    background-size:cover;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(13,20,27,.42),
+        rgba(13,20,27,.10)
+      ),
+      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+      62% center / cover;
 
   }
-
 
   .hero-inner{
     max-width:100%;
   }
 
-
   .hero .eyebrow{
-
     font-size:12px;
 
     padding:7px 11px;
 
     letter-spacing:.4px;
-
   }
 
-
   .hero h1{
-
     font-size:
       clamp(40px,11vw,58px);
 
@@ -566,71 +565,72 @@ footer{
     letter-spacing:-1.5px;
 
     margin-bottom:20px;
-
   }
 
-
   .hero p{
-
     font-size:18px;
 
     line-height:1.6;
 
     max-width:100%;
-
   }
 
-
   .hero .btn{
-
     padding:
       15px 20px;
 
     font-size:16px;
-
   }
 
 }
 
 
-/* =========================
+/* ==================================================
    VERY SMALL PHONE
-========================= */
+================================================== */
 
 @media(max-width:400px){
 
   .hero{
 
-    background-position:
-      56% center;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(13,20,27,.42),
+        rgba(13,20,27,.10)
+      ),
+      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+      62% center / cover;
 
   }
 
   .hero h1{
-
     font-size:40px;
-
   }
 
   .hero p{
-
     font-size:17px;
-
   }
 
 }
 
 
-/* =========================
+/* ==================================================
    DESKTOP LARGE SCREEN
-========================= */
+================================================== */
 
 @media(min-width:1200px){
 
   .hero{
 
-    background-position:
-      center center;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(13,20,27,.42),
+        rgba(13,20,27,.10)
+      ),
+      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+      center center / cover;
 
   }
 
@@ -643,9 +643,9 @@ footer{
 <body>
 
 
-<!-- =========================
+<!-- ==================================================
      NAVBAR
-========================= -->
+================================================== -->
 
 <nav>
 
@@ -677,9 +677,9 @@ footer{
 
 
 
-<!-- =========================
+<!-- ==================================================
      HERO
-========================= -->
+================================================== -->
 
 <header class="hero">
 
@@ -741,9 +741,9 @@ footer{
 
 
 
-<!-- =========================
+<!-- ==================================================
      CERITA
-========================= -->
+================================================== -->
 
 <section id="cerita">
 
@@ -770,8 +770,6 @@ footer{
     </p>
 
 
-
-    <!-- STATISTIK -->
 
     <div class="stats">
 
@@ -833,8 +831,6 @@ footer{
 
 
 
-    <!-- PROGRESS -->
-
     <div class="card">
 
       <b>
@@ -869,9 +865,9 @@ footer{
 
 
 
-<!-- =========================
+<!-- ==================================================
      KEBUTUHAN
-========================= -->
+================================================== -->
 
 <section id="kebutuhan">
 
@@ -956,7 +952,7 @@ footer{
 
         <p>
 
-          Susu, popok.
+          Susu, popok, dan kebutuhan anak lainnya.
 
         </p>
 
@@ -1005,9 +1001,9 @@ footer{
 
 
 
-<!-- =========================
-     CERITA / GALERI
-========================= -->
+<!-- ==================================================
+     GALERI
+================================================== -->
 
 <section>
 
@@ -1074,9 +1070,9 @@ footer{
 
 
 
-<!-- =========================
+<!-- ==================================================
      DONASI
-========================= -->
+================================================== -->
 
 <section id="donasi">
 
@@ -1102,29 +1098,21 @@ footer{
 
 
 
-      <!-- NOMINAL DONASI -->
-
       <div class="amounts">
 
 
         <button onclick="copyAmount(5000)">
-
           Rp5.000
-
         </button>
 
 
         <button onclick="copyAmount(10000)">
-
           Rp10.000
-
         </button>
 
 
         <button onclick="copyAmount(15000)">
-
           Rp15.000
-
         </button>
 
 
@@ -1132,15 +1120,11 @@ footer{
 
 
 
-      <!-- REKENING -->
-
       <div class="account">
 
 
         <b>
-
           BCA — RAGIL SUNUAJI
-
         </b>
 
 
@@ -1148,9 +1132,7 @@ footer{
 
 
         <span id="rekening">
-
           5260631278
-
         </span>
 
 
@@ -1168,20 +1150,13 @@ footer{
 
 
 
-      <!-- QRIS -->
-
       <div class="account">
 
-
         <b>
-
           QRIS
-
         </b>
 
-
         <br>
-
 
         <span class="muted">
 
@@ -1189,35 +1164,26 @@ footer{
 
         </span>
 
-
       </div>
 
 
 
-      <!-- TRANSPARANSI -->
-
       <div class="notice">
-
 
         <b>
           Transparansi:
         </b>
-
 
         setiap dana masuk dan penggunaannya
         sebaiknya dicatat dan diperbarui secara berkala
         oleh koordinator campaign agar para donatur
         dapat ikut memantau.
 
-
       </div>
 
 
       <br>
 
-
-
-      <!-- WHATSAPP -->
 
       <a
         class="btn btn-primary"
@@ -1238,9 +1204,9 @@ footer{
 
 
 
-<!-- =========================
+<!-- ==================================================
      PENGGUNAAN DANA
-========================= -->
+================================================== -->
 
 <section>
 
@@ -1261,9 +1227,7 @@ footer{
       <div class="card">
 
         <h3>
-
           01 — Kebutuhan Pokok
-
         </h3>
 
         <p>
@@ -1281,9 +1245,7 @@ footer{
       <div class="card">
 
         <h3>
-
           02 — Kebutuhan Mendesak
-
         </h3>
 
         <p>
@@ -1300,9 +1262,7 @@ footer{
       <div class="card">
 
         <h3>
-
           03 — Laporan
-
         </h3>
 
         <p>
@@ -1323,46 +1283,36 @@ footer{
 
 
 
-<!-- =========================
+<!-- ==================================================
      FOOTER
-========================= -->
+================================================== -->
 
 <footer>
 
-
   <b>
-
     Bersama untuk Cikrutuk
-
   </b>
 
-
   <br>
-
 
   Penggalangan bantuan kemanusiaan
   untuk saudara-saudara kita
   yang sedang mengungsi.
 
-
   <br><br>
 
-
   <span>
-
     © 2026 • Dibuat untuk membantu
     dan menguatkan sesama.
-
   </span>
-
 
 </footer>
 
 
 
-<!-- =========================
+<!-- ==================================================
      MUSIC BUTTON
-========================= -->
+================================================== -->
 
 <button
   class="music"
@@ -1376,35 +1326,29 @@ footer{
 
 
 
-<!-- =========================
-     BACKGROUND MUSIC
-========================= -->
+<!-- ==================================================
+     AUDIO
+================================================== -->
 
 <audio
   id="bgm"
   loop
   preload="auto"
 >
-
-  <source
-    src="data:audio/wav;base64,[VERY_LONG_BASE64_AUDIO_DATA]"
-    type="audio/wav"
-  >
-
 </audio>
 
 
 
-<!-- =========================
+<!-- ==================================================
      JAVASCRIPT
-========================= -->
+================================================== -->
 
 <script>
 
 
-/* =================================
+/* ==================================================
    COPY TEXT
-================================= */
+================================================== */
 
 function copyText(text){
 
@@ -1441,9 +1385,9 @@ function copyText(text){
 }
 
 
-/* =================================
-   COPY NOMINAL DONASI
-================================= */
+/* ==================================================
+   COPY NOMINAL
+================================================== */
 
 function copyAmount(amount){
 
@@ -1455,9 +1399,9 @@ function copyAmount(amount){
 }
 
 
-/* =================================
+/* ==================================================
    SHARE CAMPAIGN
-================================= */
+================================================== */
 
 async function shareCampaign(){
 
@@ -1501,9 +1445,9 @@ async function shareCampaign(){
 }
 
 
-/* =================================
+/* ==================================================
    MUSIC
-================================= */
+================================================== */
 
 const audio =
   document.getElementById("bgm");
@@ -1527,7 +1471,7 @@ function toggleMusic(){
       .catch(function(){
 
         alert(
-          "Silakan tekan tombol sekali lagi untuk mengaktifkan musik."
+          "Musik belum tersedia."
         );
 
       });
@@ -1542,7 +1486,6 @@ function toggleMusic(){
   }
 
 }
-
 
 </script>
 
