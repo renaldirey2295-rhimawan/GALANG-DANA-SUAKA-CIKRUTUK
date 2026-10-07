@@ -6,9 +6,10 @@
 
 <meta name="description" content="Penggalangan bantuan kemanusiaan untuk saudara kita yang sedang mengungsi di Cikrutuk.">
 
-<title>Bantuan Kemanusiaan Operasional Divisi</title>
+<title>Bantuan Kemanusiaan Cikrutuk</title>
 
 <style>
+
 :root{
   --primary:#b3261e;
   --dark:#17202a;
@@ -37,10 +38,12 @@ body{
     Roboto,
     Arial,
     sans-serif;
+
   background:var(--cream);
   color:var(--dark);
   line-height:1.6;
 }
+
 
 /* =========================
    NAVBAR
@@ -51,6 +54,7 @@ nav{
   top:0;
   left:0;
   right:0;
+
   z-index:20;
 
   background:rgba(255,250,244,.92);
@@ -77,10 +81,13 @@ nav{
 nav a{
   color:var(--dark);
   text-decoration:none;
+
   margin-left:18px;
+
   font-size:14px;
   font-weight:700;
 }
+
 
 /* =========================
    HERO
@@ -97,10 +104,12 @@ nav a{
   background:
     linear-gradient(
       90deg,
-      rgba(13,20,27,.88),
-      rgba(13,20,27,.35)
+      rgba(13,20,27,.72),
+      rgba(13,20,27,.28)
     ),
-    url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg') center/cover;
+    url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+    center/cover;
+
   color:white;
 }
 
@@ -114,10 +123,12 @@ nav a{
   padding:7px 12px;
 
   border:1px solid rgba(255,255,255,.35);
+
   border-radius:999px;
 
   font-size:13px;
   font-weight:800;
+
   letter-spacing:.5px;
 
   margin-bottom:16px;
@@ -125,7 +136,9 @@ nav a{
 
 h1{
   font-size:clamp(42px,7vw,78px);
+
   line-height:1.02;
+
   letter-spacing:-2px;
 
   margin:0 0 22px;
@@ -139,6 +152,7 @@ h1{
   color:#f5f5f5;
 }
 
+
 /* =========================
    BUTTON
 ========================= */
@@ -147,11 +161,13 @@ h1{
   display:inline-block;
 
   border:0;
+
   border-radius:13px;
 
   padding:14px 20px;
 
   font-weight:900;
+
   text-decoration:none;
 
   cursor:pointer;
@@ -174,6 +190,7 @@ h1{
 .btn:hover{
   transform:translateY(-2px);
 }
+
 
 /* =========================
    SECTION
@@ -198,8 +215,10 @@ section{
 
 .lead{
   color:var(--muted);
+
   max-width:760px;
 }
+
 
 /* =========================
    GRID
@@ -233,6 +252,7 @@ section{
   margin-top:0;
 }
 
+
 /* =========================
    STATS
 ========================= */
@@ -263,6 +283,7 @@ section{
 
   font-size:28px;
 }
+
 
 /* =========================
    PROGRESS
@@ -295,6 +316,7 @@ section{
   border-radius:999px;
 }
 
+
 /* =========================
    GALLERY
 ========================= */
@@ -324,6 +346,7 @@ section{
 .gallery img:first-child{
   grid-row:span 2;
 }
+
 
 /* =========================
    DONATION
@@ -379,6 +402,7 @@ section{
   cursor:pointer;
 }
 
+
 /* =========================
    NOTICE
 ========================= */
@@ -397,6 +421,7 @@ section{
   color:#5c4a21;
 }
 
+
 /* =========================
    FOOTER
 ========================= */
@@ -412,6 +437,7 @@ footer{
 
   font-size:14px;
 }
+
 
 /* =========================
    MUSIC BUTTON
@@ -441,6 +467,7 @@ footer{
   cursor:pointer;
 }
 
+
 /* =========================
    SMALL TEXT
 ========================= */
@@ -457,6 +484,7 @@ footer{
 
   line-height:1.45;
 }
+
 
 /* =========================
    RESPONSIVE
@@ -491,12 +519,129 @@ footer{
   .donate{
     padding:28px 20px;
   }
+
+
+  /* =========================
+     HERO MOBILE
+  ========================= */
+
+  .hero{
+
+    min-height:92vh;
+
+    padding:
+      110px 6% 70px;
+
+    background-position:
+      58% center;
+
+    background-size:cover;
+
+  }
+
+
+  .hero-inner{
+    max-width:100%;
+  }
+
+
+  .hero .eyebrow{
+
+    font-size:12px;
+
+    padding:7px 11px;
+
+    letter-spacing:.4px;
+
+  }
+
+
+  .hero h1{
+
+    font-size:
+      clamp(40px,11vw,58px);
+
+    line-height:1.05;
+
+    letter-spacing:-1.5px;
+
+    margin-bottom:20px;
+
+  }
+
+
+  .hero p{
+
+    font-size:18px;
+
+    line-height:1.6;
+
+    max-width:100%;
+
+  }
+
+
+  .hero .btn{
+
+    padding:
+      15px 20px;
+
+    font-size:16px;
+
+  }
+
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media(max-width:400px){
+
+  .hero{
+
+    background-position:
+      56% center;
+
+  }
+
+  .hero h1{
+
+    font-size:40px;
+
+  }
+
+  .hero p{
+
+    font-size:17px;
+
+  }
+
+}
+
+
+/* =========================
+   DESKTOP LARGE SCREEN
+========================= */
+
+@media(min-width:1200px){
+
+  .hero{
+
+    background-position:
+      center center;
+
+  }
+
 }
 
 </style>
 </head>
 
+
 <body>
+
 
 <!-- =========================
      NAVBAR
@@ -505,16 +650,31 @@ footer{
 <nav>
 
   <div class="logo">
-    BERSAMA <span>CIKRUTUK</span>
+
+    BERSAMA
+    <span>CIKRUTUK</span>
+
   </div>
 
+
   <div class="links">
-    <a href="#cerita">Cerita</a>
-    <a href="#kebutuhan">Kebutuhan</a>
-    <a href="#donasi">Donasi</a>
+
+    <a href="#cerita">
+      Cerita
+    </a>
+
+    <a href="#kebutuhan">
+      Kebutuhan
+    </a>
+
+    <a href="#donasi">
+      Donasi
+    </a>
+
   </div>
 
 </nav>
+
 
 
 <!-- =========================
@@ -525,38 +685,60 @@ footer{
 
   <div class="hero-inner">
 
+
     <div class="eyebrow">
-      GERAKAN KEMANUSIAAN • SARIRASA GROUP
+
+      GERAKAN KEMANUSIAAN
+      •
+      SARIRASA GROUP
+
     </div>
 
+
     <h1>
-      Bersama, kita bantu mereka melewati masa sulit.
+
+      Bersama, kita bantu
+      mereka melewati
+      masa sulit.
+
     </h1>
 
+
     <p>
+
       Penggalangan bantuan untuk saudara kita yang sedang
       mengungsi di Cikrutuk.
+
       Setiap bantuan, sekecil apa pun, dapat menjadi makanan,
       air, perlengkapan, dan rasa aman bagi mereka yang membutuhkan.
+
     </p>
+
 
     <a
       class="btn btn-primary"
       href="#donasi"
     >
+
       ❤️ Saya Mau Membantu
+
     </a>
+
 
     <button
       class="btn btn-light"
       onclick="shareCampaign()"
     >
+
       ↗ Bagikan Campaign
+
     </button>
+
 
   </div>
 
 </header>
+
 
 
 <!-- =========================
@@ -567,23 +749,32 @@ footer{
 
   <div class="wrap">
 
+
     <h2 class="section-title">
-      Saat mereka harus meninggalkan rumah
+
+      Saat mereka harus
+      meninggalkan rumah
+
     </h2>
 
+
     <p class="lead">
+
       Ketika sebuah keadaan memaksa keluarga meninggalkan rumah
       dan berkumpul di tempat pengungsian, kebutuhan paling sederhana
       menjadi sangat berarti.
 
       Campaign ini dibuat sebagai wadah untuk membantu memenuhi
       kebutuhan pengungsi di Cikrutuk secara cepat dan transparan.
+
     </p>
+
 
 
     <!-- STATISTIK -->
 
     <div class="stats">
+
 
       <div class="stat">
 
@@ -600,6 +791,7 @@ footer{
         </span>
 
       </div>
+
 
 
       <div class="stat">
@@ -619,6 +811,7 @@ footer{
       </div>
 
 
+
       <div class="stat">
 
         <span>
@@ -635,7 +828,9 @@ footer{
 
       </div>
 
+
     </div>
+
 
 
     <!-- PROGRESS -->
@@ -646,18 +841,24 @@ footer{
         Progress penggalangan
       </b>
 
+
       <div class="progress">
 
         <div class="bar"></div>
 
       </div>
 
+
       <b>
         28%
       </b>
 
+
       <span class="small">
-        — contoh tampilan, ganti sesuai data aktual.
+
+        — contoh tampilan,
+        ganti sesuai data aktual.
+
       </span>
 
     </div>
@@ -665,6 +866,7 @@ footer{
   </div>
 
 </section>
+
 
 
 <!-- =========================
@@ -675,14 +877,21 @@ footer{
 
   <div class="wrap">
 
+
     <h2 class="section-title">
+
       Apa yang paling dibutuhkan?
+
     </h2>
 
+
     <p class="lead">
+
       Prioritas bantuan dapat disesuaikan dengan kebutuhan terbaru
       dari koordinator posko.
+
     </p>
+
 
 
     <div class="grid">
@@ -695,11 +904,14 @@ footer{
         </h3>
 
         <p>
-          Nasi, makanan siap santap, bahan pangan,
-          dan kebutuhan dapur.
+
+          Nasi, makanan siap santap,
+          bahan pangan, dan kebutuhan dapur.
+
         </p>
 
       </div>
+
 
 
       <div class="card">
@@ -709,11 +921,14 @@ footer{
         </h3>
 
         <p>
+
           Air mineral dan kebutuhan minum harian
           bagi pengungsi.
+
         </p>
 
       </div>
+
 
 
       <div class="card">
@@ -723,11 +938,14 @@ footer{
         </h3>
 
         <p>
+
           Selimut, tikar, pakaian layak pakai,
           perlengkapan tidur, dan kebutuhan keluarga.
+
         </p>
 
       </div>
+
 
 
       <div class="card">
@@ -737,10 +955,13 @@ footer{
         </h3>
 
         <p>
+
           Susu, popok.
+
         </p>
 
       </div>
+
 
 
       <div class="card">
@@ -750,11 +971,14 @@ footer{
         </h3>
 
         <p>
+
           Perlengkapan P3K dan kebutuhan kesehatan
           sesuai arahan tenaga medis.
+
         </p>
 
       </div>
+
 
 
       <div class="card">
@@ -764,8 +988,10 @@ footer{
         </h3>
 
         <p>
+
           Kebutuhan operasional pengungsian
           dan perlengkapan penunjang.
+
         </p>
 
       </div>
@@ -778,6 +1004,7 @@ footer{
 </section>
 
 
+
 <!-- =========================
      CERITA / GALERI
 ========================= -->
@@ -786,17 +1013,25 @@ footer{
 
   <div class="wrap">
 
+
     <h2 class="section-title">
+
       Mereka bukan angka.
+
     </h2>
 
+
     <p class="quote">
-      “Di balik setiap bantuan, ada satu keluarga yang merasa
-      bahwa mereka tidak sendirian.”
+
+      “Di balik setiap bantuan, ada satu keluarga
+      yang merasa bahwa mereka tidak sendirian.”
+
     </p>
 
 
+
     <div class="gallery">
+
 
       <img
         src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=85"
@@ -821,6 +1056,7 @@ footer{
         alt="Relawan kemanusiaan"
       >
 
+
     </div>
 
 
@@ -835,103 +1071,150 @@ footer{
   </div>
 
 </section>
+
+
+
 <!-- =========================
-     SECTION DONASI
+     DONASI
 ========================= -->
 
 <section id="donasi">
 
   <div class="wrap">
 
+
     <div class="donate">
 
+
       <h2 class="section-title">
+
         Mari ikut membantu
+
       </h2>
 
+
       <p class="muted">
+
         Pilih nominal sesuai kemampuan.
         Tidak ada bantuan yang terlalu kecil.
+
       </p>
+
 
 
       <!-- NOMINAL DONASI -->
 
       <div class="amounts">
 
+
         <button onclick="copyAmount(5000)">
+
           Rp5.000
+
         </button>
+
 
         <button onclick="copyAmount(10000)">
+
           Rp10.000
+
         </button>
+
 
         <button onclick="copyAmount(15000)">
+
           Rp15.000
+
         </button>
 
+
       </div>
+
 
 
       <!-- REKENING -->
 
       <div class="account">
 
+
         <b>
+
           BCA — RAGIL SUNUAJI
+
         </b>
+
 
         <br>
 
+
         <span id="rekening">
+
           5260631278
+
         </span>
+
 
         <button
           class="btn btn-light"
           onclick="copyText('5260631278')"
         >
+
           Salin Rekening
+
         </button>
 
+
       </div>
+
 
 
       <!-- QRIS -->
 
       <div class="account">
 
+
         <b>
+
           QRIS
+
         </b>
+
 
         <br>
 
+
         <span class="muted">
+
           Tempatkan gambar QRIS asli di sini.
+
         </span>
 
+
       </div>
+
 
 
       <!-- TRANSPARANSI -->
 
       <div class="notice">
 
+
         <b>
           Transparansi:
         </b>
+
 
         setiap dana masuk dan penggunaannya
         sebaiknya dicatat dan diperbarui secara berkala
         oleh koordinator campaign agar para donatur
         dapat ikut memantau.
 
+
       </div>
 
 
       <br>
+
 
 
       <!-- WHATSAPP -->
@@ -941,14 +1224,18 @@ footer{
         href="https://wa.me/6287884755950?text=Halo%2C%20saya%20ingin%20membantu%20penggalangan%20bantuan%20untuk%20Cikrutuk."
         target="_blank"
       >
+
         📲 Konfirmasi Donasi via WhatsApp
+
       </a>
+
 
     </div>
 
   </div>
 
 </section>
+
 
 
 <!-- =========================
@@ -959,58 +1246,70 @@ footer{
 
   <div class="wrap">
 
+
     <h2 class="section-title">
+
       Bagaimana dana digunakan?
+
     </h2>
+
 
 
     <div class="grid">
 
 
-      <!-- 01 -->
-
       <div class="card">
 
         <h3>
+
           01 — Kebutuhan Pokok
+
         </h3>
 
         <p>
+
           Prioritaskan makanan, air,
           perlengkapan tidur,
           dan kebutuhan dasar pengungsi.
+
         </p>
 
       </div>
 
 
-      <!-- 02 -->
 
       <div class="card">
 
         <h3>
+
           02 — Kebutuhan Mendesak
+
         </h3>
 
         <p>
+
           Pengadaan kebutuhan yang benar-benar
           dibutuhkan berdasarkan informasi posko.
+
         </p>
 
       </div>
 
 
-      <!-- 03 -->
 
       <div class="card">
 
         <h3>
+
           03 — Laporan
+
         </h3>
 
         <p>
+
           Publikasikan rekap penerimaan dan pengeluaran
           agar campaign dapat dipertanggungjawabkan.
+
         </p>
 
       </div>
@@ -1023,30 +1322,42 @@ footer{
 </section>
 
 
+
 <!-- =========================
      FOOTER
 ========================= -->
 
 <footer>
 
+
   <b>
+
     Bersama untuk Cikrutuk
+
   </b>
 
+
   <br>
+
 
   Penggalangan bantuan kemanusiaan
   untuk saudara-saudara kita
   yang sedang mengungsi.
 
+
   <br><br>
 
+
   <span>
+
     © 2026 • Dibuat untuk membantu
     dan menguatkan sesama.
+
   </span>
 
+
 </footer>
+
 
 
 <!-- =========================
@@ -1058,8 +1369,11 @@ footer{
   id="musicBtn"
   onclick="toggleMusic()"
 >
+
   🎵 Musik: OFF
+
 </button>
+
 
 
 <!-- =========================
@@ -1080,11 +1394,13 @@ footer{
 </audio>
 
 
+
 <!-- =========================
      JAVASCRIPT
 ========================= -->
 
 <script>
+
 
 /* =================================
    COPY TEXT
@@ -1226,6 +1542,7 @@ function toggleMusic(){
   }
 
 }
+
 
 </script>
 
