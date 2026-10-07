@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
 <meta name="description"
-content="Penggalangan bantuan kemanusiaan untuk saudara kita yang sedang mengungsi di Cikrutuk.">
+      content="Penggalangan bantuan kemanusiaan untuk saudara kita yang sedang mengungsi di Cikrutuk.">
 
 <title>Bantuan Kemanusiaan Cikrutuk</title>
 
+
 <style>
+
+/* ==================================================
+   ROOT
+================================================== */
 
 :root{
   --primary:#b3261e;
@@ -19,6 +27,11 @@ content="Penggalangan bantuan kemanusiaan untuk saudara kita yang sedang mengung
   --green:#276749;
   --muted:#667085;
 }
+
+
+/* ==================================================
+   GLOBAL
+================================================== */
 
 *{
   box-sizing:border-box;
@@ -30,6 +43,7 @@ html{
 
 body{
   margin:0;
+
   font-family:
     Inter,
     system-ui,
@@ -41,7 +55,9 @@ body{
     sans-serif;
 
   background:var(--cream);
+
   color:var(--dark);
+
   line-height:1.6;
 }
 
@@ -52,6 +68,7 @@ body{
 
 nav{
   position:fixed;
+
   top:0;
   left:0;
   right:0;
@@ -59,12 +76,15 @@ nav{
   z-index:20;
 
   background:rgba(255,250,244,.92);
+
   backdrop-filter:blur(12px);
 
   border-bottom:1px solid #eee;
 
   display:flex;
+
   justify-content:space-between;
+
   align-items:center;
 
   padding:14px 6%;
@@ -72,6 +92,7 @@ nav{
 
 .logo{
   font-weight:900;
+
   letter-spacing:-.5px;
 }
 
@@ -81,11 +102,13 @@ nav{
 
 nav a{
   color:var(--dark);
+
   text-decoration:none;
 
   margin-left:18px;
 
   font-size:14px;
+
   font-weight:700;
 }
 
@@ -95,20 +118,25 @@ nav a{
 ================================================== */
 
 .hero{
+
   min-height:92vh;
 
   display:grid;
+
   place-items:center;
 
   padding:110px 6% 60px;
 
   background:
+
     linear-gradient(
       90deg,
       rgba(13,20,27,.42),
       rgba(13,20,27,.10)
     ),
+
     url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+
     center center / cover;
 
   color:white;
@@ -119,6 +147,7 @@ nav a{
 }
 
 .eyebrow{
+
   display:inline-block;
 
   padding:7px 12px;
@@ -128,6 +157,7 @@ nav a{
   border-radius:999px;
 
   font-size:13px;
+
   font-weight:800;
 
   letter-spacing:.5px;
@@ -135,63 +165,13 @@ nav a{
   margin-bottom:16px;
 }
 
-@media(max-width:800px){
-
-  nav .links{
-    display:none;
-  }
-
-  .hero{
-    min-height:92vh;
-
-    padding:110px 6% 70px;
-
-    background:
-      linear-gradient(
-        90deg,
-        rgba(13,20,27,.28),
-        rgba(13,20,27,.05)
-      ),
-      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
-      70% center / cover;
-
-    color:white;
-  }
-
-  .hero-inner{
-    max-width:100%;
-  }
-
-  .hero .eyebrow{
-    font-size:12px;
-    padding:7px 11px;
-  }
-
-  .hero h1{
-    font-size:clamp(40px,11vw,58px);
-    line-height:1.05;
-    letter-spacing:-1.5px;
-    margin-bottom:20px;
-  }
-
-  .hero p{
-    font-size:18px;
-    line-height:1.6;
-    max-width:100%;
-  }
-
-  .hero .btn{
-    padding:15px 20px;
-    font-size:16px;
-  }
-
-}
 
 /* ==================================================
    BUTTON
 ================================================== */
 
 .btn{
+
   display:inline-block;
 
   border:0;
@@ -212,16 +192,21 @@ nav a{
 }
 
 .btn-primary{
+
   background:#e84a3c;
+
   color:white;
 }
 
 .btn-light{
+
   background:white;
+
   color:var(--dark);
 }
 
 .btn:hover{
+
   transform:translateY(-2px);
 }
 
@@ -231,23 +216,30 @@ nav a{
 ================================================== */
 
 section{
+
   padding:72px 6%;
 }
 
 .wrap{
+
   max-width:1120px;
+
   margin:auto;
 }
 
 .section-title{
-  font-size:clamp(30px,4vw,44px);
 
-  margin:0 0 12px;
+  font-size:
+    clamp(30px,4vw,44px);
+
+  margin:
+    0 0 12px;
 
   letter-spacing:-1px;
 }
 
 .lead{
+
   color:var(--muted);
 
   max-width:760px;
@@ -259,6 +251,7 @@ section{
 ================================================== */
 
 .grid{
+
   display:grid;
 
   grid-template-columns:
@@ -270,6 +263,7 @@ section{
 }
 
 .card{
+
   background:white;
 
   border:1px solid #eee;
@@ -283,6 +277,7 @@ section{
 }
 
 .card h3{
+
   margin-top:0;
 }
 
@@ -292,6 +287,7 @@ section{
 ================================================== */
 
 .stats{
+
   display:grid;
 
   grid-template-columns:
@@ -303,6 +299,7 @@ section{
 }
 
 .stat{
+
   background:white;
 
   border-radius:18px;
@@ -313,6 +310,7 @@ section{
 }
 
 .stat b{
+
   display:block;
 
   font-size:28px;
@@ -324,6 +322,7 @@ section{
 ================================================== */
 
 .progress{
+
   height:16px;
 
   background:#eadfd6;
@@ -336,11 +335,13 @@ section{
 }
 
 .bar{
+
   height:100%;
 
   width:28%;
 
   background:
+
     linear-gradient(
       90deg,
       var(--primary),
@@ -356,6 +357,7 @@ section{
 ================================================== */
 
 .gallery{
+
   display:grid;
 
   grid-template-columns:
@@ -368,16 +370,92 @@ section{
   margin-top:28px;
 }
 
-.gallery img{
+
+/* CARD FOTO */
+
+.gallery-card{
+
+  position:relative;
+
   width:100%;
+
   height:100%;
+
+  overflow:hidden;
+
+  border-radius:18px;
+
+  background:#ddd;
+
+  box-shadow:
+    0 8px 24px rgba(0,0,0,.08);
+}
+
+
+/* FOTO */
+
+.gallery-card img{
+
+  width:100%;
+
+  height:100%;
+
+  display:block;
 
   object-fit:cover;
 
   border-radius:18px;
 }
 
-.gallery img:first-child{
+
+/* LABEL FOTO */
+
+.gallery-card span{
+
+  position:absolute;
+
+  left:12px;
+
+  right:12px;
+
+  bottom:12px;
+
+  padding:9px 11px;
+
+  border-radius:10px;
+
+  background:
+    rgba(0,0,0,.58);
+
+  color:white;
+
+  font-size:13px;
+
+  font-weight:800;
+
+  backdrop-filter:blur(5px);
+}
+
+
+/*
+  Foto kamu.
+  Posisi dibuat agak ke kiri
+  supaya orang di dalam foto
+  lebih terlihat.
+*/
+
+.gallery-person img{
+
+  object-position:42% center;
+}
+
+
+/*
+  Foto pertama dibuat besar
+*/
+
+.gallery-card:first-child{
+
   grid-row:span 2;
 }
 
@@ -387,6 +465,7 @@ section{
 ================================================== */
 
 .donate{
+
   background:var(--dark);
 
   color:white;
@@ -397,10 +476,12 @@ section{
 }
 
 .donate .muted{
+
   color:#cbd5e1;
 }
 
 .account{
+
   background:#26333f;
 
   border:1px solid #40505e;
@@ -413,6 +494,7 @@ section{
 }
 
 .amounts{
+
   display:flex;
 
   flex-wrap:wrap;
@@ -423,6 +505,7 @@ section{
 }
 
 .amounts button{
+
   border:1px solid #d8c9bf;
 
   background:white;
@@ -442,6 +525,7 @@ section{
 ================================================== */
 
 .notice{
+
   padding:16px 18px;
 
   background:#fff4d6;
@@ -461,6 +545,7 @@ section{
 ================================================== */
 
 footer{
+
   background:#10161b;
 
   color:#b8c0c7;
@@ -474,13 +559,15 @@ footer{
 
 
 /* ==================================================
-   MUSIC BUTTON
+   MUSIC
 ================================================== */
 
 .music{
+
   position:fixed;
 
   right:18px;
+
   bottom:18px;
 
   z-index:30;
@@ -507,11 +594,14 @@ footer{
 ================================================== */
 
 .small{
+
   font-size:13px;
+
   color:var(--muted);
 }
 
 .quote{
+
   font-size:22px;
 
   font-weight:700;
@@ -521,7 +611,7 @@ footer{
 
 
 /* ==================================================
-   RESPONSIVE
+   MOBILE
 ================================================== */
 
 @media(max-width:800px){
@@ -530,34 +620,10 @@ footer{
     display:none;
   }
 
-  .grid,
-  .stats{
-    grid-template-columns:1fr;
-  }
 
-  .gallery{
-    grid-template-columns:1fr 1fr;
-
-    grid-auto-rows:170px;
-  }
-
-  .gallery img:first-child{
-    grid-column:span 2;
-    grid-row:span 1;
-  }
-
-  section{
-    padding:55px 5%;
-  }
-
-  .donate{
-    padding:28px 20px;
-  }
-
-
-  /* ==================================================
-     HERO MOBILE
-  ================================================== */
+  /* ==============================
+     HERO
+  ============================== */
 
   .hero{
 
@@ -567,29 +633,38 @@ footer{
       110px 6% 70px;
 
     background:
+
       linear-gradient(
         90deg,
         rgba(13,20,27,.42),
         rgba(13,20,27,.10)
       ),
-      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
-      62% center / cover;
 
+      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+
+      62% center / cover;
   }
 
+
   .hero-inner{
+
     max-width:100%;
   }
 
+
   .hero .eyebrow{
+
     font-size:12px;
 
-    padding:7px 11px;
+    padding:
+      7px 11px;
 
     letter-spacing:.4px;
   }
 
+
   .hero h1{
+
     font-size:
       clamp(40px,11vw,58px);
 
@@ -600,7 +675,9 @@ footer{
     margin-bottom:20px;
   }
 
+
   .hero p{
+
     font-size:18px;
 
     line-height:1.6;
@@ -608,11 +685,104 @@ footer{
     max-width:100%;
   }
 
+
   .hero .btn{
+
     padding:
       15px 20px;
 
     font-size:16px;
+  }
+
+
+  /* ==============================
+     GRID
+  ============================== */
+
+  .grid,
+  .stats{
+
+    grid-template-columns:1fr;
+  }
+
+
+  /* ==============================
+     GALLERY MOBILE
+  ============================== */
+
+  .gallery{
+
+    grid-template-columns:
+      1fr 1fr;
+
+    grid-auto-rows:170px;
+
+    gap:10px;
+  }
+
+
+  /*
+    Foto pertama melebar
+  */
+
+  .gallery-card:first-child{
+
+    grid-column:span 2;
+
+    grid-row:span 1;
+  }
+
+
+  /*
+    FOTO KAMU
+    dibuat lebih tinggi
+    supaya orang lebih terlihat
+  */
+
+  .gallery-person{
+
+    min-height:280px;
+
+    grid-column:span 2;
+  }
+
+
+  .gallery-person img{
+
+    object-position:42% center;
+  }
+
+
+  /*
+    Label foto
+  */
+
+  .gallery-card span{
+
+    font-size:12px;
+
+    left:9px;
+
+    right:9px;
+
+    bottom:9px;
+
+    padding:
+      8px 9px;
+  }
+
+
+  section{
+
+    padding:
+      55px 5%;
+  }
+
+
+  .donate{
+
+    padding:
+      28px 20px;
   }
 
 }
@@ -627,22 +797,34 @@ footer{
   .hero{
 
     background:
+
       linear-gradient(
         90deg,
         rgba(13,20,27,.42),
         rgba(13,20,27,.10)
       ),
-      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
-      62% center / cover;
 
+      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+
+      62% center / cover;
   }
 
+
   .hero h1{
+
     font-size:40px;
   }
 
+
   .hero p{
+
     font-size:17px;
+  }
+
+
+  .gallery-person{
+
+    min-height:300px;
   }
 
 }
@@ -657,19 +839,22 @@ footer{
   .hero{
 
     background:
+
       linear-gradient(
         90deg,
         rgba(13,20,27,.42),
         rgba(13,20,27,.10)
       ),
-      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
-      center center / cover;
 
+      url('https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg')
+
+      center center / cover;
   }
 
 }
 
 </style>
+
 </head>
 
 
@@ -1062,28 +1247,71 @@ footer{
     <div class="gallery">
 
 
-      <img
-        src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=85"
-        alt="Kegiatan bantuan kemanusiaan"
-      >
+      <!-- FOTO BANTUAN -->
+
+      <div class="gallery-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=85"
+          alt="Kegiatan bantuan kemanusiaan"
+        >
+
+        <span>
+          Gerakan saling membantu
+        </span>
+
+      </div>
 
 
-      <img
-        src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?auto=format&fit=crop&w=900&q=85"
-        alt="Relawan membantu masyarakat"
-      >
+
+      <!-- FOTO KAMU -->
+
+      <div class="gallery-card gallery-person">
+
+        <img
+          src="https://raw.githubusercontent.com/renaldirey2295-rhimawan/GALANG-DANA-SUAKA-CIKRUTUK/main/Images/fotoragil.jpg"
+          alt="Dokumentasi penggalangan bantuan"
+        >
+
+        <span>
+          Dokumentasi Cikrutuk
+        </span>
+
+      </div>
 
 
-      <img
-        src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=85"
-        alt="Anak-anak dalam kegiatan kemanusiaan"
-      >
+
+      <!-- FOTO ANAK-ANAK -->
+
+      <div class="gallery-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=85"
+          alt="Anak-anak dalam kegiatan kemanusiaan"
+        >
+
+        <span>
+          Harapan untuk anak-anak
+        </span>
+
+      </div>
 
 
-      <img
-        src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=900&q=85"
-        alt="Relawan kemanusiaan"
-      >
+
+      <!-- FOTO RELAWAN -->
+
+      <div class="gallery-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=900&q=85"
+          alt="Relawan kemanusiaan"
+        >
+
+        <span>
+          Relawan bergerak bersama
+        </span>
+
+      </div>
 
 
     </div>
@@ -1091,9 +1319,9 @@ footer{
 
     <p class="small">
 
-      Foto di atas adalah foto ilustrasi.
-      Ganti dengan dokumentasi asli Cikrutuk agar campaign
-      lebih akurat dan terpercaya.
+      Foto ilustrasi digunakan sebagai gambaran kegiatan.
+      Dokumentasi asli Cikrutuk dapat ditambahkan untuk
+      memperkuat informasi campaign.
 
     </p>
 
@@ -1501,6 +1729,7 @@ function toggleMusic(){
           "🎵 Musik: ON";
 
       })
+
       .catch(function(){
 
         alert(
